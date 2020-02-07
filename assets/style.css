@@ -22,15 +22,15 @@ img {
 	line-height: 60px;
 }
 
-.header__logo {
-	display: inline-block;
-	font-size: 20px;
-}
-
 .header__phone {
 	float: right;
 	text-decoration: none;
 	color: #565656;
+}
+
+.header__logo {
+	display: inline-block;
+	font-size: 20px;
 }
 
 .hero {
