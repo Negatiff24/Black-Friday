@@ -1,0 +1,95 @@
+body, h1, h2, h3, h4, p, ul, ol, li {
+	margin: 0;
+	font-family: "Trebuchet MS"
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: #f4f4f4;
+	height: 60px;
+	line-height: 60px;
+}
+
+.header__logo {
+	display: inline-block;
+	font-size: 20px;
+}
+
+.header__phone {
+	float: right;
+	text-decoration: none;
+	color: #565656;
+}
+
+.hero {
+	padding: 50px 0;
+	background-color: black;
+	height: calc(100vh - 60px);
+}
+
+.hero__title {
+	color: white;
+	font-size: 40px;
+	font-family: 'Bowlby One SC', cursive;
+}
+
+.product {
+	display: inline-block;
+	border: solid 2px salmon;
+	border-radius: 10px;
+	color: salmon;
+	background-color: white;
+	margin-right: 20px;
+	width: calc(25% - 20px);
+	padding: 20px;
+	text-align: center;
+}
+
+.product: last-child {
+	margin-right: 0;
+}
+
+.btn {
+	display: inline-block;
+	border: solid 1px white;
+	background-color: salmon;
+	border-radius: 5px;
+	color: black;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+.btn.-success {
+	background: lightgreen;
+	border-color: lightgreen;
+}
+
+.btn.-warning {
+	background: orange;
+	border-color: orange;
+}
+
+.subscribe {
+	border: solid 2px blue;
+	border-radius: 10px;
+	color: white;
+	background-color: blue;
+	margin-top: 50px;
+	padding: 30px;
+}
+
+.subscribe__h {
+	margin-bottom: 13px;
+}
