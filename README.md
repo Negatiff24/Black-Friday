@@ -1,4 +1,4 @@
-# Black Friday
+# [Black Friday](https://negatiff24.github.io/Black-Friday/)
 
 This is a project I've used to learn the basics of web development. The mai things I learned here are:
 
